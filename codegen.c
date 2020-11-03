@@ -1,6 +1,6 @@
 // Output initial instructions and definitions
 void initialize_out() {
-	fprintf(yyout, ".globl main:\n");
+	fprintf(yyout, ".globl main:\nmain:");
 }
 
 void print_instr(char* str) {
