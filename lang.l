@@ -35,6 +35,11 @@ whitespace [ \t]+
 		printf("Found variable: %c\n", *yytext);
 	return VAR;
 }
+main {
+	if (DEBUG_OUT)
+		printf("Found token: %s\n", yytext);
+	return MAIN;
+}
 
 "**" {
 	if (DEBUG_OUT)
