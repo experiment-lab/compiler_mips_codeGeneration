@@ -33,7 +33,7 @@
 	int if_num, op_num, loop_num;
 %}
 
-%token PRINT INPUT
+%token PRINT INPUT MAIN
 %token INT VAR
 
 %left POW
@@ -45,7 +45,7 @@
 %%
 
 lines:
-	lines line
+	lines MAIN '('')' '{' line '}'
 	|
 	;
 
