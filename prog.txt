@@ -1,1 +1,5 @@
-a = b+c;
+input a;
+c = a/2;
+print c+5;
+d = a-(c*10);
+print d;
