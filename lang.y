@@ -105,7 +105,7 @@ int main(int argc, char *argv[])
 	else
 		printf("\nParsing failed!\n");
 
-	//print_instr("li	$v0 10\t# Code for syscall: exit\n\tsyscall\n");
+	//print_instr("li	$v0 10\t# Code for syscall : exit\n\tsyscall\n");
 	
 	fclose(yyin);
 	fclose(yyout);
