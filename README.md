@@ -1,4 +1,4 @@
-<h1 align="center">Compiler Design Lab Project Group 16</h1>
+<h1 align="center">Compiler Design Lab Project CSE 1-Group 16</h1>
 
 [Link to Presentation](https://docs.google.com/presentation/d/1aJL2K3itWrowGL7sIJbI4r_bsvUzcSxR1cgS7PWgs7s/edit?usp=sharing/) </br>
 [Link to Project Report](https://drive.google.com/file/d/1EhMISdY1rtJkx29a5aJP_-MmVdsz47tA/view?usp=sharing/) </br>
