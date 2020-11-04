@@ -62,7 +62,7 @@
 #define YY_PROTO(proto) ()
 #endif
 
-/* Returned upon end-of-file. */
+/* Returned upon end-of-file.. */
 #define YY_NULL 0
 
 /* Promotes a possibly negative, possibly signed char to an unsigned
