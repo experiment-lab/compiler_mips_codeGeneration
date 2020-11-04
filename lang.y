@@ -34,7 +34,7 @@
 	int if_num, op_num, loop_num;
 %}
 
-%token PRINT INPUT MAIN DINT
+%token PRINT MAIN DINT
 %token INT VAR
 
 %left POW
