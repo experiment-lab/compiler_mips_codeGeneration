@@ -12,7 +12,7 @@ gcc -ll lang.tab.c -o base<br />
  lang.l : This file is a lexical anaylser which searchs for vaild key words that is used in our program.
           when we run "lex lang.l" file in command prompt, this will generate lex.yy.c
           
- lang.y : In this file we are defining our rules for which what action we have to take.
+ lang.y : In this file we are defining our rules for which, what action we have to take.
           when we run "yacc -d lang.y" file in command prompt, this will generate y.tab.c and y.tab.h for our compiler
          
 codegen.c : This contains the actions we are taking in lang.y file.
