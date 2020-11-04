@@ -114,4 +114,12 @@ void cgen_div() {
 	print_instr("mflo $a0");
 }
 
+void cgen_array(){
+	int base_address = 100;
+	char str[100];
+	// initialization of array
+	print_instr("lui $s0, base_address" );   // upper
+	sprintf(str,"ori $s0, $s0, %d*base_address",yyval); // lower
+	print_instr(str);
+}
 
