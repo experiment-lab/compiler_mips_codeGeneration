@@ -40,6 +40,9 @@ main {
 		printf("Found token: %s\n", yytext);
 	return MAIN;
 }
+int {
+	return (DINT);
+}
 
 "**" {
 	if (DEBUG_OUT)
