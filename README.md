@@ -19,5 +19,10 @@ codegen.c : This contains the actions we are taking in lang.y file.
 
 After linking lex.yy.c and y.tab.c our .exe is generated for our compiler.
 
+<h1 align="center">ScreenShots</h1>
+
+<img src="https://github.com/tushar-amrit-6/compiler_mips_codeGeneration/blob/main/test/ss1.jpeg" /><br>
+<img src="https://github.com/tushar-amrit-6/compiler_mips_codeGeneration/blob/main/test/ss2.jpeg" /><br>
+
 [Link to Presentation](https://docs.google.com/presentation/d/1aJL2K3itWrowGL7sIJbI4r_bsvUzcSxR1cgS7PWgs7s/edit?usp=sharing)
  
