@@ -66,7 +66,7 @@ int {
 		printf("Incrementing linenum\n");
 	yylineno++;
 }
-{whitespace}	;
+{whitespace}	 ;
 
 . {
 	yyerror("Unknown token");
