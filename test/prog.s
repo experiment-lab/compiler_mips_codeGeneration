@@ -1,10 +1,8 @@
 .globl main:
-	la $t0 vars
-	lw $a0 0($t0)
+	li $a0 70
 	sw $a0 0($sp)
 	addiu $sp $sp -4
-	la $t0 vars
-	lw $a0 8($t0)
+	li $a0 3
 	sw $a0 0($sp)
 	addiu $sp $sp -4
 	li $a0 10
