@@ -1,5 +1,5 @@
 <h1 align="center">Compiler Design Lab Project</h1>
-
+[Link to Presentation](https://docs.google.com/presentation/d/1aJL2K3itWrowGL7sIJbI4r_bsvUzcSxR1cgS7PWgs7s/edit?usp=sharing)
   #how to compile:
 >yacc -d lang.y <br />
 lex lang.l    <br />
@@ -24,5 +24,6 @@ After linking lex.yy.c and y.tab.c our .exe is generated for our compiler.
 <img src="https://github.com/tushar-amrit-6/compiler_mips_codeGeneration/blob/main/test/ss1.jpeg" /><br>
 <img src="https://github.com/tushar-amrit-6/compiler_mips_codeGeneration/blob/main/test/ss2.jpeg" /><br>
 
-[Link to Presentation](https://docs.google.com/presentation/d/1aJL2K3itWrowGL7sIJbI4r_bsvUzcSxR1cgS7PWgs7s/edit?usp=sharing)
+
+
  
