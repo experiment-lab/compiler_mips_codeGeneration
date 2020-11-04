@@ -27,13 +27,14 @@
 	void cgen_neg();
 	void cgen_binop(char op);
 	void cgen_div();
+	void cgen_array();
 
 	int stack[1000];
 	int st_top;
 	int if_num, op_num, loop_num;
 %}
 
-%token PRINT INPUT MAIN
+%token PRINT INPUT MAIN DINT
 %token INT VAR
 
 %left POW
@@ -55,6 +56,7 @@ line:
 	| VAR '=' expr ';' {cgen_assign($1);}
 	| PRINT expr ';'  {cgen_print();}
 	| INPUT VAR ';'	{cgen_input($2);}
+	| DINT VAR '[' INT ']' {cgen_array()}';'
 	| '{' lines '}'
 	;
 
