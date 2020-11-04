@@ -1,5 +1,5 @@
-# MANIT
-# compiler lab CSE 31
+<h1 align="center">Compiler Design Lab Project</h1>
+
   #how to compile:
 >yacc -d lang.y <br />
 lex lang.l    <br />
@@ -18,4 +18,6 @@ gcc -ll lang.tab.c -o base<br />
 codegen.c : This contains the actions we are taking in lang.y file.
 
 After linking lex.yy.c and y.tab.c our .exe is generated for our compiler.
+
+[Link to Presentation](https://docs.google.com/presentation/d/1aJL2K3itWrowGL7sIJbI4r_bsvUzcSxR1cgS7PWgs7s/edit?usp=sharing)
  
