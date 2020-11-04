@@ -1,4 +1,4 @@
-.globl main:
+.globl| main:
 	la $t0 vars
 	lw $a0 4($t0)
 	sw $a0 0($sp)
