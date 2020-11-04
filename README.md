@@ -1,7 +1,7 @@
 <h1 align="center">Compiler Design Lab Project</h1>
 
 [Link to Presentation](https://docs.google.com/presentation/d/1aJL2K3itWrowGL7sIJbI4r_bsvUzcSxR1cgS7PWgs7s/edit?usp=sharing/)
-
+[Link to Project Report](https://drive.google.com/file/d/1EhMISdY1rtJkx29a5aJP_-MmVdsz47tA/view?usp=sharing/)
   #how to compile:
 >yacc -d lang.y <br />
 lex lang.l    <br />
